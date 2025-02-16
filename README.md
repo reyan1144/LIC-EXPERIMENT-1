@@ -1,4 +1,4 @@
-# LIC-EXPERIMENT-1-
+# LIC-EXPERIMENT-1
 ## AIM
 Using LTspice to examine a CS amplifier characterization like frequency response,bandwidth,phase difference,gain.Utilizing DC,transient,AC analysis using 180nm technology lib.
 ## COMPONENTS REQUIRED
@@ -45,9 +45,9 @@ By simulating we willl get Ac frequency response and we will get  gain=-9.095dB,
 C)TRANSIENT ANALYSIS: 
 ![Image](https://github.com/user-attachments/assets/4d795d54-a631-47af-ade5-6486b445d59a)  
 ## 1.5 INFERENCE  
-1.In DC analysis if we increase W id will also increase and if we increase L Id will decrease.
-2.In AC Analysis if we increase W bandwidth decreases gain increases and phase difference decreases.GAIN is decreasing with time. 
-3.The transient response is very smooth.  
+1.In DC analysis if we increase W id will also increase and if we increase L Id will decrease.  
+2.In AC Analysis if we increase W bandwidth decreases gain increases and phase difference decreases.GAIN is decreasing with time.   
+3.The transient response is very smooth.    
 ## 2.1 CIRCUIT DIAGRAM  
 ![Image](https://github.com/user-attachments/assets/09740901-fe32-4d49-b71e-c6878d9d009b)  
 ## 2.2 PROCEDURE  
@@ -77,15 +77,17 @@ A)DC ANALYSIS:
 By adjusting the dimensions of both the MOSFET'S we can get the operating point for PMOS W=1107n and L=180n and for NMOS also the same  
 ![Image](https://github.com/user-attachments/assets/8c0141c1-fc62-4646-a40a-852e9b623d8f)    
 B)AC ANALYSIS:  
-AC frequency response is not stable.  
+Gain=5.5dB   
 ![Image](https://github.com/user-attachments/assets/d3ddf39f-c590-47a0-863f-6f20a54fe46d)  
 C)TRANSIENT ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/213eeebf-00fe-482a-bb0c-3390ae3a3cfc)  
 ## 2.5 INFERENCE  
 1.PMOS dimesnions doesn't have much effect on Id and if we increase the width of NMOS Id will increase.  
 2.To keep PMOS always in saturation we have just connected a diode to it.  
-3.In AC Analysis if we increase W bandwidth decreases gain increases and phase difference decreases.GAIN is decreasing with time. 
+3.In AC Analysis response is not stable.  
 4.The transient response is very smooth.  
+## COMPARISON BETWEEN FIRST AND SECOND CIRCUIT  
+
 
 
 
