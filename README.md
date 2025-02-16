@@ -72,6 +72,7 @@ A)DC ANALYSIS:
 B)AC ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/62f55433-2352-4828-abf4-612d118b75ad)  
 C)TRANSIENT ANALYSIS:  
+![Image](https://github.com/user-attachments/assets/9c9f06dd-7305-48b0-a734-89d461b7c896)  
 
 
 
