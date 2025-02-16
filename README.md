@@ -23,9 +23,10 @@ For simulating open LTspice click on configure analysis then click on transient 
 5.Create a new folder on your computer.Save the downloaded library file (tsmc018.txt) into this folder.  
 6.ADD a SPICE directive to import the library file.  
 7.Set the MOSFET model name to CMOSN (as specified in the library file).  
-8.Set the transistor parameters  
+8.Set the transistor parameters such that it should lie in saturation region.  
 9.Run the simulation using the .op (operating point) analysis.  
 10.After the simulation, check the current flowing through the resistor or the MOSFET  
+11.Do it for Transient and AC analysis too  
 ## 1.3 CALCULATION
 Given Power=100uW  
 we have to find I  
@@ -43,6 +44,20 @@ C)TRANSIENT ANALYSIS:
 ![Image](https://github.com/user-attachments/assets/0acd65ff-2883-4728-a54f-7f216685e000)  
 ## 2.1 CIRCUIT DIAGRAM  
 ![Image](https://github.com/user-attachments/assets/9ba91cb4-d859-47cf-bbef-515066a46e1b)  
+## 2.2 PROCEDURE  
+1.Open LTspice and create a new schematic.  
+2.Build the common source amplifier circuit as per the circuit diagram.  
+3.Set component values  
+4.Download the library file named tsmc018.txt from the provided source.  
+5.Create a new folder on your computer.Save the downloaded library file (tsmc018.txt) into this folder.  
+6.ADD a SPICE directive to import the library file.  
+7.Label both the MOSFET(as specified in the library file).  
+8.Set both transistor parameters such that they lie in saturation region.  
+9.Connect a diode in PMOS so that we need not worry about that MOSFET to be in saturation.
+10.Do the DC,Transient analysis
+11.For AC analysis first we have to do DC sweep as shown in fig below  
+
+
 
 
 
