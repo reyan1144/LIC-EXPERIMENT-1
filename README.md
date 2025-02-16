@@ -68,6 +68,9 @@ so,VOUT=1.745V
 Hence Qpoint=(1.745v,55.5uA)  
 ## 2.4 RESULTS  
 A)DC ANALYSIS:  
+![Image](https://github.com/user-attachments/assets/7c69324e-af1c-4aff-ae49-d01f0419ae95)  
+B) AC ANALYSIS:  
+
 
 
 
