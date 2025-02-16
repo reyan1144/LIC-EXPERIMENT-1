@@ -43,7 +43,7 @@ B)AC ANALYSIS:
 C)TRANSIENT ANALYSIS: 
 ![Image](https://github.com/user-attachments/assets/0acd65ff-2883-4728-a54f-7f216685e000)  
 ## 2.1 CIRCUIT DIAGRAM  
-![Image](https://github.com/user-attachments/assets/9ba91cb4-d859-47cf-bbef-515066a46e1b)  
+
 ## 2.2 PROCEDURE  
 1.Open LTspice and create a new schematic.  
 2.Build the common source amplifier circuit as per the circuit diagram.  
