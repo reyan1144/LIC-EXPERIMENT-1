@@ -87,6 +87,7 @@ C)TRANSIENT ANALYSIS:
 3.In AC Analysis response is not stable.  
 4.The transient response is very smooth.  
 ## COMPARISON BETWEEN FIRST AND SECOND CIRCUIT  
+![Image](https://github.com/user-attachments/assets/5e048e92-9b5c-4b10-b385-d2866f4f9ee9)  
 
 
 
