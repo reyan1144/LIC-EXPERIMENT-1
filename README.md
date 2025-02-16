@@ -27,13 +27,13 @@ For simulating open LTspice click on configure analysis then click on transient 
 9.Run the simulation using the .op (operating point) analysis.-
 10.After the simulation, check the current flowing through the resistor or the MOSFET-
 ## 1.3 CALCULATION
-Given Power=100uW
-we have to find I
-WKT P=VI where V=1.8v
-hence,I=55.5uA
-Now,VDD=IDRD+VOUT,where VDD=1.8V,ID=55.5uA,RD=1kohm
-so,VOUT=1.745V
-Hence Qpoint=(1.745v,55.5uA)
+Given Power=100uW  
+we have to find I  
+WKT P=VI where V=1.8v  
+hence,I=55.5uA  
+Now,VDD=IDRD+VOUT,where VDD=1.8V,ID=55.5uA,RD=1kohm  
+so,VOUT=1.745V  
+Hence Qpoint=(1.745v,55.5uA)  
 ## 1.4 RESULTS
 A)DC ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/744eee30-b993-44fd-b451-ac6143f0634c)
