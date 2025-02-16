@@ -37,11 +37,17 @@ so,VOUT=1.745V
 Hence Qpoint=(1.745v,55.5uA)  
 ## 1.4 RESULTS
 A)DC ANALYSIS:  
+By adjusting the dimensions of mosfet that is W=203n and L=180n we can get the calculated Id=55.55uA and Vout=1.745V.while we have to ensure that MOSFET is in saturation region.    
 ![Image](https://github.com/user-attachments/assets/744eee30-b993-44fd-b451-ac6143f0634c)  
-B)AC ANALYSIS:  
+B)AC ANALYSIS: 
+By simulating we willl get Ac frequency response and we will get  gain=-9.095dB,Bandwidth=215.650GHz and phase difference=102.37 degree  
 ![Image](https://github.com/user-attachments/assets/cf6407c0-895b-426a-bc37-463ea769ba15)  
 C)TRANSIENT ANALYSIS: 
-![Image](https://github.com/user-attachments/assets/4d795d54-a631-47af-ade5-6486b445d59a)    
+![Image](https://github.com/user-attachments/assets/4d795d54-a631-47af-ade5-6486b445d59a)  
+## 1.5 INFERENCE  
+1.In DC analysis if we increase W id will also increase and if we increase L Id will decrease.
+2.In AC Analysis if we increase W bandwidth decreases gain increases and phase difference decreases.GAIN is decreasing with time. 
+3.The transient response is very smooth.  
 ## 2.1 CIRCUIT DIAGRAM  
 ![Image](https://github.com/user-attachments/assets/09740901-fe32-4d49-b71e-c6878d9d009b)  
 ## 2.2 PROCEDURE  
@@ -57,7 +63,7 @@ C)TRANSIENT ANALYSIS:
 10.Do the DC,Transient analysis
 11.For AC analysis first we have to do DC sweep as shown in fig below  
 ![Image](https://github.com/user-attachments/assets/adad853c-73fd-4cb9-aced-c5e794056153)  
-12.We will get a VTC curve in that select any voltage in saturation region then put the same as DC offset voltage and the run it.
+12.We will get a VTC curve in that select any voltage in saturation region then put the same as DC offset voltage and then run it.
 ## 2.3 CALCULATION  
 Given Power=100uW  
 we have to find I  
@@ -68,11 +74,21 @@ so,VOUT=1.745V
 Hence Qpoint=(1.745v,55.5uA)  
 ## 2.4 RESULTS  
 A)DC ANALYSIS:  
+By adjusting the dimensions of both the MOSFET'S we can get the operating point for PMOS W=1107n and L=180n and for NMOS also the same  
 ![Image](https://github.com/user-attachments/assets/8c0141c1-fc62-4646-a40a-852e9b623d8f)    
 B)AC ANALYSIS:  
+AC frequency response is not stable.  
 ![Image](https://github.com/user-attachments/assets/d3ddf39f-c590-47a0-863f-6f20a54fe46d)  
 C)TRANSIENT ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/213eeebf-00fe-482a-bb0c-3390ae3a3cfc)  
+## 2.5 INFERENCE  
+1.PMOS dimesnions doesn't have much effect on Id and if we increase the width of NMOS Id will increase.  
+2.To keep PMOS always in saturation we have just connected a diode to it.  
+3.In AC Analysis if we increase W bandwidth decreases gain increases and phase difference decreases.GAIN is decreasing with time. 
+4.The transient response is very smooth.  
+
+
+
 
 
 
