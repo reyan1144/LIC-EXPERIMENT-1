@@ -3,6 +3,12 @@
 Using LTspice to examine a CS amplifier characterization like frequency response,bandwidth,phase difference,gain.Utilizing DC,transient,AC analysis using 180nm technology lib.-
 ## COMPONENTS REQUIRED-
 NMOS and PMOS(180nm technology node),Resistor,voltage source,AC ground,Wires
+## THEORY AND SIMULATION
+A)DC ANALYSIS:When we talk about DC analysis for a MOSFET, the main goal is to figure out the stable operating point of the transistor. This is important because we want the MOSFET to work in its saturation region, which is where it can properly amplify signals.-
+For the MOSFET to be in saturation, the voltage between the drain and source (VDS) needs to be greater than something called the overdrive voltage (VOV). The overdrive voltage is just the difference between the gate-source voltage (VGS) and the threshold voltage (VTH) of the MOSFET.  VOV = VGS - VTH.-
+For simulating open LTspice click on configure analysis and in that select DC op pnt and then click ok.-
+B)AC ANALYSIS:When we analyze a MOSFET for AC signals (small alternating signals), we treat it as a linear small-signal amplifier. This means we’re looking at how tiny changes in the input voltage (at the gate) affect the output current (at the drain). In this case, the drain current (iD) is directly proportional to the small changes in the gate voltage (vgs). ID=gm*vgs.The voltage gain (Av) of the amplifier is calculated using this formula:Av = -gm (RD || RL).-
+For simulating open LTspice click on configure analysis then put the value which is shown in the fig below
 ## 1.1 CIRCUIT DIAGRAM
 ![Image](https://github.com/user-attachments/assets/780c8916-68cd-424c-aab2-06a45db15e21)-
 ## 1.2 PROCEDURE
@@ -11,8 +17,20 @@ NMOS and PMOS(180nm technology node),Resistor,voltage source,AC ground,Wires
 3.Set component values-
 4.Download the library file named tsmc018.txt from the provided source.-
 5.Create a new folder on your computer.Save the downloaded library file (tsmc018.txt) into this folder.-
-6.ADD a SPICE directive to import the library file.
+6.ADD a SPICE directive to import the library file.-
 7.Set the MOSFET model name to CMOSN (as specified in the library file).-
+8.Set the transistor parameters-
+9.Run the simulation using the .op (operating point) analysis.-
+10.After the simulation, check the current flowing through the resistor or the MOSFET-
+## 1.3 CALCULATION
+Given Power=100uW
+we have to find I
+WKT P=VI where V=1.8v
+hence,I=55.5uA
+Now,VDD=IDRD+VOUT,where VDD=1.8V,ID=55.5uA,RD=1kohm
+so,VOUT=1.745V
+Hence Qpoint=(1.745v,55.5uA)
+
 
 
 
