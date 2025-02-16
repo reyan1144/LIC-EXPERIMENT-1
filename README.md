@@ -70,7 +70,7 @@ Hence Qpoint=(1.745v,55.5uA)
 A)DC ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/7c69324e-af1c-4aff-ae49-d01f0419ae95)  
 B)AC ANALYSIS:  
-![Image](https://github.com/user-attachments/assets/62f55433-2352-4828-abf4-612d118b75ad)  
+![Image](https://github.com/user-attachments/assets/d3ddf39f-c590-47a0-863f-6f20a54fe46d)  
 C)TRANSIENT ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/9c9f06dd-7305-48b0-a734-89d461b7c896)  
 
