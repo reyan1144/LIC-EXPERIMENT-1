@@ -41,7 +41,7 @@ A)DC ANALYSIS:
 B)AC ANALYSIS:  
 ![Image](https://github.com/user-attachments/assets/cf6407c0-895b-426a-bc37-463ea769ba15)  
 C)TRANSIENT ANALYSIS: 
-![Image](https://github.com/user-attachments/assets/0acd65ff-2883-4728-a54f-7f216685e000)  
+![Image](https://github.com/user-attachments/assets/4d795d54-a631-47af-ade5-6486b445d59a)    
 ## 2.1 CIRCUIT DIAGRAM  
 ![Image](https://github.com/user-attachments/assets/09740901-fe32-4d49-b71e-c6878d9d009b)  
 ## 2.2 PROCEDURE  
