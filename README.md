@@ -42,6 +42,8 @@ B)AC ANALYSIS:
 C)TRANSIENT ANALYSIS: 
 ![Image](https://github.com/user-attachments/assets/0acd65ff-2883-4728-a54f-7f216685e000)  
 ## 2.1 CIRCUIT DIAGRAM  
+![Image](https://github.com/user-attachments/assets/9ba91cb4-d859-47cf-bbef-515066a46e1b)  
+
 
 
 
