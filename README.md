@@ -1,16 +1,16 @@
 # LIC-EXPERIMENT-1-
-## AIM-
-Using LTspice to examine a CS amplifier characterization like frequency response,bandwidth,phase difference,gain.Utilizing DC,transient,AC analysis using 180nm technology lib.-
-## COMPONENTS REQUIRED-
+## AIM
+Using LTspice to examine a CS amplifier characterization like frequency response,bandwidth,phase difference,gain.Utilizing DC,transient,AC analysis using 180nm technology lib.
+## COMPONENTS REQUIRED
 NMOS and PMOS(180nm technology node),Resistor,voltage source,AC ground,Wires
 ## THEORY AND SIMULATION
-A)DC ANALYSIS:When we talk about DC analysis for a MOSFET, the main goal is to figure out the stable operating point of the transistor. This is important because we want the MOSFET to work in its saturation region, which is where it can properly amplify signals.-
-For the MOSFET to be in saturation, the voltage between the drain and source (VDS) needs to be greater than something called the overdrive voltage (VOV). The overdrive voltage is just the difference between the gate-source voltage (VGS) and the threshold voltage (VTH) of the MOSFET.  VOV = VGS - VTH.-
-For simulating open LTspice click on configure analysis and in that select DC op pnt and then click ok.-
-B)AC ANALYSIS:When we analyze a MOSFET for AC signals (small alternating signals), we treat it as a linear small-signal amplifier. This means we’re looking at how tiny changes in the input voltage (at the gate) affect the output current (at the drain). In this case, the drain current (iD) is directly proportional to the small changes in the gate voltage (vgs). ID=gm*vgs.The voltage gain (Av) of the amplifier is calculated using this formula:Av = -gm (RD || RL).-
-For simulating open LTspice click on configure analysis then put the value which is shown in the fig below
-![Image](https://github.com/user-attachments/assets/d095650b-5e16-4138-a121-2f1b8b738aa2)
-and then right click on Vin and put the waves what you need and put amplitude value as 1.
+A)DC ANALYSIS:When we talk about DC analysis for a MOSFET, the main goal is to figure out the stable operating point of the transistor. This is important because we want the MOSFET to work in its saturation region, which is where it can properly amplify signals.  
+For the MOSFET to be in saturation, the voltage between the drain and source (VDS) needs to be greater than something called the overdrive voltage (VOV). The overdrive voltage is just the difference between the gate-source voltage (VGS) and the threshold voltage (VTH) of the MOSFET.  VOV = VGS - VTH.  
+For simulating open LTspice click on configure analysis and in that select DC op pnt and then click ok.  
+B)AC ANALYSIS:When we analyze a MOSFET for AC signals (small alternating signals), we treat it as a linear small-signal amplifier. This means we’re looking at how tiny changes in the input voltage (at the gate) affect the output current (at the drain). In this case, the drain current (iD) is directly proportional to the small changes in the gate voltage (vgs). ID=gm*vgs.The voltage gain (Av) of the amplifier is calculated using this formula:Av = -gm (RD || RL).  
+For simulating open LTspice click on configure analysis then put the value which is shown in the fig below  
+![Image](https://github.com/user-attachments/assets/d095650b-5e16-4138-a121-2f1b8b738aa2)  
+and then right click on Vin and put the waves what you need and put amplitude value as 1.  
 C)TRANSIENT ANALYSIS:Transient analysis is all about understanding how the amplifier responds to time-varying signals, like sudden voltage changes or pulse inputs. Imagine you’re sending a quick "blip" of voltage into the amplifier—transient analysis helps us see how the circuit reacts to that blip over time.When the input signal changes suddenly (like a step or a pulse), the amplifier doesn’t respond instantly. Instead, its behavior is influenced by the charging and discharging of capacitors in the circuit.
 For simulating open LTspice click on configure analysis then click on transient then just put the value of stop time as your wish.
 ## 1.1 CIRCUIT DIAGRAM
