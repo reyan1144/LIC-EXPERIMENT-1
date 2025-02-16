@@ -56,6 +56,20 @@ C)TRANSIENT ANALYSIS:
 9.Connect a diode in PMOS so that we need not worry about that MOSFET to be in saturation.
 10.Do the DC,Transient analysis
 11.For AC analysis first we have to do DC sweep as shown in fig below  
+![Image](https://github.com/user-attachments/assets/adad853c-73fd-4cb9-aced-c5e794056153)  
+12.We will get a VTC curve in that select any voltage in saturation region then put the same as DC offset voltage and the run it.
+## 2.3 CALCULATION  
+Given Power=100uW  
+we have to find I  
+WKT P=VI where V=1.8v  
+hence,I=55.5uA  
+Now,VDD=IDRD+VOUT,where VDD=1.8V,ID=55.5uA,RD=1kohm  
+so,VOUT=1.745V  
+Hence Qpoint=(1.745v,55.5uA)  
+## 2.4 RESULTS  
+A)DC ANALYSIS:  
+
+
 
 
 
